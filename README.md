@@ -40,4 +40,4 @@ JVM_OPTS='-Xmx1024m -Xms1024m'
 ### 作者的MC服：
 * mc110.bluerain.io (v1.10)
 * mc17.bluerain.io:25567 (v1.7)
-* MC群: 493545276 (QQ群)
+* mc群: 493545276 (QQ群)
