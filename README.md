@@ -19,7 +19,6 @@ docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc -d -v ${your_path
 docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.10 -d -v /data/mc1.9:/data/minecraft bluerain/minecraft:1.9
 ````
 由上可知，容器中的 /data/minecraft 是主要存放目录。minecraft_server.jar 和其他数据文件都存放于此。   
-第一次启动时，因为宿主机映射的 minecraft 目录不存在 server 文件，所以 -v 以后的容器，会在第一次启动时重新下载一遍。
 
 ### 添加 JVM 参数
 当然，根据服务器配置的不同，难免有需要调整 JVM 内存的时候。   
