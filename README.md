@@ -16,7 +16,7 @@ docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc -d -v ${your_host
 ````
 例如
 ````bash
-docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.10 -d -v /data/mc1.9:/data/minecraft bluerain/minecraft:1.9
+docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.9 -d -v /data/mc1.9:/data/minecraft bluerain/minecraft:1.9
 ````
 /data/mc1.9是我的主机系统上的目录，启动这个容易以后会看到这样的文件结构:
 ````
@@ -40,7 +40,6 @@ docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.10 -d -v /data/m
 你只需要这么做，在 minecraft 主目录有一个 startup.sh 文件，在它的开头是这样的：
 ````bash
 #!/usr/bin/env bash
-
 JVM_OPTS='-Xmx1024m -Xms1024m'
 # 省略后续内容...
 ````
