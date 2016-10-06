@@ -33,7 +33,7 @@ docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.9 -d -v /data/mc
 ├── whitelist.json
 └── world
 ````
-可见这个也就是启动minecraft_server.jar的主目录，你想 要的/修改 的数据都在此。   
+可见这个也就是启动 minecraft_server.jar 的主目录，你想 要的/修改 的数据都在此。   
 
 ### 添加 JVM 参数
 当然，根据服务器配置的不同，难免有需要调整 JVM 内存的时候。   
