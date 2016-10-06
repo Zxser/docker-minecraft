@@ -16,9 +16,9 @@ docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc -d -v ${your_host
 ````
 例如
 ````bash
-docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.9 -d -v /data/mc1.9:/data/minecraft bluerain/minecraft:1.9
+docker run -ti -d -e TZ=Asia/Shanghai -p 25565:25565 --name mc1.9 -d -v /data/mc/1.9:/data/minecraft bluerain/minecraft:1.9
 ````
-/data/mc1.9是我的主机系统上的目录，启动这个容易以后会看到这样的文件结构:
+/data/mc/1.9 是我的主机系统上的目录，启动这个容器以后，主机目录会产生这样的文件结构:
 ````
 .
 ├── banned-ips.json
