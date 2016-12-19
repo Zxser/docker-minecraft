@@ -1,5 +1,5 @@
 ## Minecraft Server Images.
-PS：[制作教程](http://blog.bluerain.io/2016/10/04/minecraft-docker/)
+PS：[制作教程](http://blog.bluerain.io/p/Minecraft-Docker-Image.html)
 ### 包括的版本：
 注：默认的 latest 版本是 1.10   
 * 1.9.4 [(Dockerfile)](https://github.com/HentaiMew/docker-minecraft/blob/master/1.9/Dockerfile)
