@@ -1,10 +1,11 @@
 ## Minecraft Server Images.
 PS：[制作教程](http://blog.bluerain.io/p/Minecraft-Docker-Image.html)
 ### 包括的版本：
-注：默认的 latest 版本是 1.10   
-* 1.9.4 [(Dockerfile)](https://github.com/HentaiMew/docker-minecraft/blob/master/1.9/Dockerfile)
-* 1.8.9 [(Dockerfile)](https://github.com/HentaiMew/docker-minecraft/blob/master/1.8/Dockerfile)
-* 1.7.10 [(Dockerfile)](https://github.com/HentaiMew/docker-minecraft/blob/master/1.7/Dockerfile)
+注：默认的 latest 版本是 1.11.2   
+* 1.10 [(Dockerfile)](https://github.com/Hentioe/docker-minecraft/blob/master/1.9/Dockerfile)
+* 1.9.4 [(Dockerfile)](https://github.com/Hentioe/docker-minecraft/blob/master/1.9/Dockerfile)
+* 1.8.9 [(Dockerfile)](https://github.com/Hentioe/docker-minecraft/blob/master/1.8/Dockerfile)
+* 1.7.10 [(Dockerfile)](https://github.com/Hentioe/docker-minecraft/blob/master/1.7/Dockerfile)
 
 ### 简单启动
 ````bash
@@ -52,6 +53,6 @@ JVM_OPTS='-Xmx768m -Xms512m'
 当然也可以做成一个镜像，给参数拉取不同的版本。不过直接拉取版本更加方便也基本不会多占用空间。Docker 的 tag 的作用也在于此。
 
 ### 作者的MC服
-* mc110.bluerain.io (v1.10)
+* mc112.bluerain.io (v1.12)
 * mc17.bluerain.io:25567 (v1.7)
 * mc群: 493545276 (QQ群)
